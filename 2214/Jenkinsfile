@@ -10,9 +10,7 @@ pipeline {
         CLASS_NUM = '2214'
     }
 
-
     stages {
-
         stage('Username 확인') {
             steps {
                 script {
